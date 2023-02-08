@@ -1,2 +1,2 @@
-# lading-page-1
+# landing-page-1
 First landing page - HTML | CSS
