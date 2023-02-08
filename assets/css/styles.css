@@ -241,11 +241,13 @@
 
     
     h2{
+        display: block;
         font-size: 5.4rem;
     }
 
     p{
         font-size: 1.8rem;
+        display: block;
     }
 
     .intro-content,
@@ -328,12 +330,4 @@
         text-align: initial;
 
     }
-
-    .intro-section h2{
-        display: block;
-
-        font-size: 8rem;
-
-    }
-
 }
