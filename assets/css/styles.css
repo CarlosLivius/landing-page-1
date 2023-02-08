@@ -2,6 +2,21 @@
     min-height: 100vh;
 }
 
+.intro-section{
+    margin: 0 auto;
+
+    display: flex;
+    height: 100vh;
+
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: var(--gap);
+
+    text-align: center;
+
+
+}
+
 .intro-content {
     position: relative;
     display: grid;
@@ -295,4 +310,20 @@
         display: none;
     }
 
+    .intro-section{
+        min-height: 100vh;
+        height: auto;
+        gap: var(--gap);
+
+        display: block;
+        text-align: initial;
+
+    }
+
+    .intro-section h2{
+        display: block;
+
+        font-size: 8rem;
+
+    }
 }
