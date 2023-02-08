@@ -239,6 +239,15 @@
 }
 @media(max-width: 800px) {
 
+    
+    h2{
+        font-size: 5.4rem;
+    }
+
+    p{
+        font-size: 1.8rem;
+    }
+
     .intro-content,
     .grid {
         grid-template-columns: 1fr;
@@ -326,4 +335,5 @@
         font-size: 8rem;
 
     }
+
 }
